@@ -3,13 +3,13 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>/opt/rh/pam/repositories</url>
-        <source>LOCAL</source>
+        <id>bxms-projects</id>
+        <url>http://192.168.122.40:8081/repository/bxms-projects/</url>
+        <source>DISTRIBUTION_MANAGEMENT</source>
       </metadata>
     </repository>
     <repository>
-      <include>true</include>
+      <include>false</include>
       <metadata>
         <id>central</id>
         <url>https://repo.maven.apache.org/maven2</url>
@@ -19,9 +19,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>bxms-projects</id>
-        <url>http://192.168.122.40:8081/repository/bxms-projects/</url>
-        <source>DISTRIBUTION_MANAGEMENT</source>
+        <id>local</id>
+        <url>/opt/rh/pam/repositories</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
   </repositories>
