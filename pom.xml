@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.myspace</groupId>
   <artifactId>recursoshumanos</artifactId>
-  <version>1.0.4-SNAPSHOT</version>
+  <version>1.0.5-SNAPSHOT</version>
   <packaging>kjar</packaging>
   <name>recursoshumanos</name>
   <description>recursoshumanos</description>
@@ -12,7 +12,6 @@
     <repository>
       <id>bxms-projects</id>
       <url>http://192.168.122.40:8081/repository/bxms-projects/</url>
-      <layout>default</layout>
     </repository>
   </distributionManagement>
   <dependencies>
