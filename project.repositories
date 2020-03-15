@@ -3,17 +3,17 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>/home/jboss/.m2/repository</url>
-        <source>LOCAL</source>
+        <id>bxms-projects</id>
+        <url>http://192.168.122.40:8081/repository/bxms-projects/</url>
+        <source>DISTRIBUTION_MANAGEMENT</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>bxms-projects</id>
-        <url>http://192.168.122.40:8081/repository/bxms-projects/</url>
-        <source>DISTRIBUTION_MANAGEMENT</source>
+        <id>local</id>
+        <url>/home/jboss/.m2/repository</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
     <repository>
