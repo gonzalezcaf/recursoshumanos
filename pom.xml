@@ -7,7 +7,7 @@
   <version>1.1.0</version>
   <packaging>kjar</packaging>
   <name>recursoshumanos</name>
-  <description>recursoshumanos</description>
+  <description>Resporitorio para proyecto de recursos humanos</description>
   <distributionManagement>
     <repository>
       <id>bxms-projects</id>
