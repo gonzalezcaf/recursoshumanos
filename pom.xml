@@ -8,14 +8,6 @@
   <packaging>kjar</packaging>
   <name>recursoshumanos</name>
   <description>Repositorio para proyecto de recursos humanos.</description>
-  <!--
-  <distributionManagement>
-    <repository>
-      <id>bxms-projects</id>
-      <url>http://192.168.122.40:8081/repository/bxms-projects/</url>
-    </repository>
-  </distributionManagement>
-  -->
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
