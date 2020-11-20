@@ -1,11 +1,11 @@
 <project-repositories>
   <repositories>
     <repository>
-      <include>true</include>
+      <include>false</include>
       <metadata>
-        <id>local</id>
-        <url>/opt/rh/pam78/repositories</url>
-        <source>LOCAL</source>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <source>PROJECT</source>
       </metadata>
     </repository>
     <repository>
@@ -17,11 +17,11 @@
       </metadata>
     </repository>
     <repository>
-      <include>false</include>
+      <include>true</include>
       <metadata>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <source>PROJECT</source>
+        <id>local</id>
+        <url>/opt/rh/pam78/repositories</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
   </repositories>
